@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça o Achei!, projeto de extensão que centraliza os achados e perdidos do campus.">
+  <title>Sobre o projeto · Achei!</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== Menu ===== -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-search-heart"></i> Achei!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Itens encontrados</a></li>
+          <li class="nav-item"><a class="nav-link" href="cadastrar.html">Achei um item</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="sobre.html">Sobre o projeto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <h1>Sobre o projeto</h1>
+        <p class="lead text-muted">
+          O <strong>Achei!</strong> é um projeto de extensão desenvolvido na disciplina de Desenvolvimento Web
+          para centralizar os achados e perdidos da universidade em um só lugar.
+        </p>
+
+        <div class="row g-4 my-3">
+          <div class="col-md-4">
+            <div class="caixa-form h-100">
+              <i class="bi bi-exclamation-triangle icone-grande"></i>
+              <h3 class="h5 mt-2">O problema</h3>
+              <p class="small text-muted mb-0">
+                Objetos perdidos no campus ficam espalhados entre secretarias, portarias e grupos de WhatsApp.
+                Quem perde não sabe onde procurar, e quem acha não sabe a quem entregar.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="caixa-form h-100">
+              <i class="bi bi-lightbulb icone-grande"></i>
+              <h3 class="h5 mt-2">A solução</h3>
+              <p class="small text-muted mb-0">
+                Um site simples onde qualquer pessoa cadastra o que encontrou, com foto e local de retirada,
+                e o dono consegue buscar e recuperar seu item.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="caixa-form h-100">
+              <i class="bi bi-people icone-grande"></i>
+              <h3 class="h5 mt-2">Público beneficiado</h3>
+              <p class="small text-muted mb-0">
+                Estudantes, professores e funcionários da universidade, além dos setores que hoje
+                guardam os objetos (secretarias, biblioteca e portaria).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="h4 mt-5">Como funciona</h2>
+        <ol class="list-group list-group-numbered mb-5">
+          <li class="list-group-item">Quem encontra um objeto entrega em um setor (secretaria, biblioteca, portaria).</li>
+          <li class="list-group-item">Cadastra o item no site com foto, local onde achou e onde ficou guardado.</li>
+          <li class="list-group-item">O dono busca pelo nome, categoria ou local e clica em <strong>"É meu!"</strong>.</li>
+          <li class="list-group-item">Ele vai até o local indicado, retira o item e marca como devolvido.</li>
+        </ol>
+
+        <h2 class="h4">Tecnologias utilizadas</h2>
+        <p>
+          <span class="badge bg-danger">HTML5</span>
+          <span class="badge bg-primary">CSS3</span>
+          <span class="badge" style="background:#7952b3">Bootstrap 5</span>
+          <span class="badge bg-warning text-dark">JavaScript</span>
+          <span class="badge bg-success">Supabase (PostgreSQL + Storage)</span>
+        </p>
+
+        <h2 class="h4 mt-4">Equipe</h2>
+        <!-- Troque pelos nomes do grupo -->
+        <ul>
+          <li>Seu nome aqui</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white-50 text-center py-3 small">
+    Achei! · Projeto de extensão · Desenvolvimento Web
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
